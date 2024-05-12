@@ -697,8 +697,8 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin: 2.5rem 0;
-			width: 100%;
+			margin: 2.5rem auto; <!--0;-->
+			max-width: 100%; <!--width: 100%;-->
 		}
 
 			.image.main img {
@@ -708,7 +708,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.image.main {
-				margin: 2rem 0;
+				margin: 2rem auto;<!--0;->
 			}
 
 		}
@@ -716,7 +716,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.image.main {
-				margin: 1.5rem 0;
+				margin: 1.5rem auto;<!--0;-->
 			}
 
 		}
