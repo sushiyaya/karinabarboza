@@ -701,6 +701,12 @@ input, select, textarea {
 			max-width: 100%; <!--width: 100%;-->
 		}
 
+		.image.main.move-right {
+    			position: relative; /* Ensure relative positioning */
+    			left: 50%; /* Move the image to the right by 50% of its container's width */
+    			transform: translateX(50%); /* Correct its position to the right */
+		}
+
 			.image.main img {
 				width: 100%;
 			}
