@@ -703,8 +703,8 @@ input, select, textarea {
 
 		.image.main.move-right {
     			position: relative; /* Ensure relative positioning */
-    			left: 20%; /* Move the image to the right by 50% of its container's width */
-    			transform: translateX(20%); /* Correct its position to the right */
+    			left: 15%; /* Move the image to the right by 50% of its container's width */
+    			transform: translateX(15%); /* Correct its position to the right */
 		}
 
 			.image.main img {
