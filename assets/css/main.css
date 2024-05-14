@@ -108,7 +108,6 @@ input, select, textarea {
 			-ms-transition: none !important;
 			transition: none !important;
 		}
-
 /* iframe-container {
     position: relative;
     overflow: hidden;
@@ -124,9 +123,7 @@ input, select, textarea {
     border: 0;
 }
 */
-
-/* Type */
-
+/*Type */
 	html {
 		font-size: 16pt;
 	}
@@ -223,7 +220,7 @@ input, select, textarea {
 			margin: 0 0 2rem 0;
 		}
 
-	h1 {
+		h1 {
 		font-size: 2.25rem;
 		line-height: 1.3;
 		letter-spacing: 0.5rem;
@@ -327,7 +324,7 @@ input, select, textarea {
 
 /* Form */
 
-	form {
+		form {
 		margin: 0 0 2rem 0;
 	}
 
@@ -604,7 +601,7 @@ input, select, textarea {
 
 /* Box */
 
-	.box {
+		.box {
 		border-radius: 4px;
 		border: solid 1px #ffffff;
 		margin-bottom: 2rem;
@@ -625,7 +622,7 @@ input, select, textarea {
 
 /* Icon */
 
-	.icon {
+		.icon {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
@@ -667,7 +664,7 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
-		<!--text-align: center;->
+		/*--text-align: center;->*/
 	}
 
 		.image:before {
