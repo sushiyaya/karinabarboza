@@ -260,6 +260,8 @@ input, select, textarea {
 			line-height: 1.5;
 		}
 
+	}
+
 	sub {
 		font-size: 0.8rem;
 		position: relative;
